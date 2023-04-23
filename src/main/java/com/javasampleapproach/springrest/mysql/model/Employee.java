@@ -1,7 +1,7 @@
 package com.javasampleapproach.springrest.mysql.model;
 
 
-
+///chandra file 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
