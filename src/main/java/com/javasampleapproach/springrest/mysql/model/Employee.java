@@ -27,6 +27,8 @@ public class Employee {
 	@Column(name = "department")
 	private String department;
 	
+	private String emaiid;
+	
 	public long getId() {
 		return id;
 	}
