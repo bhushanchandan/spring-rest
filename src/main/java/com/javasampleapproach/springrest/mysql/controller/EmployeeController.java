@@ -21,8 +21,8 @@ import com.javasampleapproach.springrest.mysql.repo.EmployeeRepository;
 @RequestMapping("/api")
 public class EmployeeController {
 
-	@Autowired
-	EmployeeRepository repository;
+	//@Autowired
+	//EmployeeRepository repository;
 
 	@GetMapping("/employee")
 	public List<Employee> getAllEmployee() {
